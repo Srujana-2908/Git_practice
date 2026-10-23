@@ -111,7 +111,7 @@ public class AppTest
         System.out.println("Tear down after each test");
     }
 
-    @AfterAll 
+    @AfterAll //writes after all tests are done
     static void Afterall()
     {
         System.out.println("After all tests");
