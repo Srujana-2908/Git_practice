@@ -104,7 +104,7 @@ public class AppTest
         int[] numbers = {1, 2, 3};
         app.sort_array(numbers);
     }
-    @AfterEach 
+    @AfterEach  //executes after each test method
     void tearDown()
     {
         app = null;
